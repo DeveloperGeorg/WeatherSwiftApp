@@ -8,5 +8,11 @@ class OnboardingController: UIViewController {
     }
 
 
+    @IBAction func clickUseDeviceLocationButton(_ sender: Any) {
+        print("useDeviceLocationButton has been tapped")
+    }
+    @IBAction func clickRejectUsageDeviceLocationButton(_ sender: Any) {
+        print("rejectUsageDeviceLocationButton has been tapped")
+    }
 }
 

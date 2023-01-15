@@ -50,12 +50,4 @@ class OnboardingUIView: UIView {
         useDeviceLocationButton.bottomAnchor.constraint(equalTo: rejectUsageDeviceLocationButton.topAnchor, constant: -25).isActive = true
         useDeviceLocationButton.widthAnchor.constraint(equalTo: rejectUsageDeviceLocationButton.widthAnchor).isActive = true
     }
-    
-    @IBAction func clickUseDeviceLocationButton(_ sender: Any) {
-        print("useDeviceLocationButton has been tapped")
-    }
-    
-    @IBAction func clickRejectUsageDeviceLocationButton(_ sender: Any) {
-        print("rejectUsageDeviceLocationButton has been tapped")
-    }
 }
